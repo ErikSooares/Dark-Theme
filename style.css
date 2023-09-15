@@ -3,6 +3,9 @@ body{
     padding: 0;
 }
 #btnColor{
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    
     width: 700px;
     height: 300px;
     cursor: pointer;
@@ -13,9 +16,6 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    touch-action: manipulation;
-    -webkit-tap-highlight-color: transparent;
 }
 #ballColor{
     width: 250px;
