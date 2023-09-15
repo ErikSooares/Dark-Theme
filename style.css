@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#btnColor{
+    width: 700px;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 500px;
+    background-color: black;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#ballColor{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+
+    position: relative;
+    top: 25px;
+    left: 5%;
+}
+
+@media screen and (max-width: 1000px){
+    #btnColor{
+        width: 450px;
+        height: 200px;
+    }
+    #ballColor{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #btnColor{
+        width: 150px;
+        height: 70px;
+    }
+    #ballColor{        
+        width: 55px;
+        height: 55px;
+
+        position: relative;
+        top: 7px;
+    }
+}
